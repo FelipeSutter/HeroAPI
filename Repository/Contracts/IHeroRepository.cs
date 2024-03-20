@@ -1,4 +1,4 @@
-﻿using Domain.Model.En;
+﻿using Domain.Model;
 
 namespace Repository.Contracts
 {

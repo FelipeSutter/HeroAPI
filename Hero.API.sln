@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hero.API", "Hero.API.csproj", "{04C84D59-4F16-46B1-8767-D2EE5EF5C5B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{8337BBBD-0451-4FDC-9C72-71630A5461F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{8337BBBD-0451-4FDC-9C72-71630A5461F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{651841B3-EB22-437A-9174-3631E9AC1331}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{651841B3-EB22-437A-9174-3631E9AC1331}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{6BAB79FE-023F-4A3C-9A9A-8CA54BBBECA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{6BAB79FE-023F-4A3C-9A9A-8CA54BBBECA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hero.API", "Hero.API\Hero.API.csproj", "{0C6E1B0B-FADB-4912-A525-AD4F5C5B1DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04C84D59-4F16-46B1-8767-D2EE5EF5C5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04C84D59-4F16-46B1-8767-D2EE5EF5C5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04C84D59-4F16-46B1-8767-D2EE5EF5C5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04C84D59-4F16-46B1-8767-D2EE5EF5C5B1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8337BBBD-0451-4FDC-9C72-71630A5461F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8337BBBD-0451-4FDC-9C72-71630A5461F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8337BBBD-0451-4FDC-9C72-71630A5461F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{6BAB79FE-023F-4A3C-9A9A-8CA54BBBECA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BAB79FE-023F-4A3C-9A9A-8CA54BBBECA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BAB79FE-023F-4A3C-9A9A-8CA54BBBECA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6E1B0B-FADB-4912-A525-AD4F5C5B1DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6E1B0B-FADB-4912-A525-AD4F5C5B1DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6E1B0B-FADB-4912-A525-AD4F5C5B1DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6E1B0B-FADB-4912-A525-AD4F5C5B1DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

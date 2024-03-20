@@ -1,5 +1,4 @@
-﻿using Domain.Model;
-using Hero.API.DTOs;
+﻿using Hero.API.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 
@@ -22,7 +21,7 @@ namespace Hero.API.Controllers
                 return BadRequest("Invalid hero");
 
             // Esta com erro no Hero, nao esta reconhecendo de onde vem
-            return Ok(await _heroService.InsertHero(new Hero(heroDto.Name, heroDto.Power)));
+            return Ok(await _heroService.InsertHero(new Domain.Model.Hero(heroDto.Name, heroDto.Power)));
         }
     }
 }
